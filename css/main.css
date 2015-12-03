@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.simpleicon {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	display: inline-block;
+	height: 48px;
+	margin: 5px 0 5px 5px;
+	text-indent: -9999em;
+	width: 48px;
+	border-radius: 48px;
+	outline: none !important;
+}
+.simpleicon-googleplus {
+	background-color: #DC4E41;
+	background-image: url("../img/googleplus.svg");
+}
+.simpleicon-facebook {
+	background-color: #3B5998;
+	background-image: url("../img/facebook.svg");
+}
+.simpleicon-twitter {
+	background-color: #55ACEE;
+	background-image: url("../img/twitter.svg");
+}
+.simpleicon-linkedin {
+	background-color: #0077B5;
+	background-image: url("../img/linkedin.svg");
+}
+.simpleicon-github {
+	background-color: #181717;
+	background-image: url("../img/github.svg");
+}
+
+@media (min-width: 34em) {
+	.simpleicon {
+		background-size: 32px 32px;
+		height: 64px;
+		width: 64px;
+	}
+}
+
+@media (min-width: 62em) {
+	.simpleicon {
+		background-size: 48px 48px;
+		height: 96px;
+		width: 96px;
+	}
+}
