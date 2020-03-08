@@ -1,2 +1,2 @@
 # przybys.com
-My homepage. http://www.przybys.com/
+My homepage. https://www.przybys.com/
